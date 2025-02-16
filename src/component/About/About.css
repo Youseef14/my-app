@@ -1,0 +1,64 @@
+.about-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #131722;
+  color: white;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.about-container h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0a500;
+}
+
+.about-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-container ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #d1d1d1;
+  transition: color 0.3s ease;
+}
+
+.about-container ul li svg {
+  margin-right: 10px;
+  color: #f0a500;
+}
+
+.testimonials {
+  margin-top: 50px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.testimonials h3 {
+  font-size: 1.8rem;
+  color: #f0a500;
+  margin-bottom: 15px;
+}
+
+.testimonials p {
+  font-size: 1.2rem;
+  color: #d1d1d1;
+  margin-bottom: 10px;
+}
+
+.testimonials p:first-child {
+  font-weight: bold;
+}

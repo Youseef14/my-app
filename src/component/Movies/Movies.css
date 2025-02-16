@@ -1,0 +1,36 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 10px;
+}
+
+.movie-card {
+  background-color: #222;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px);
+}
+
+.movie-image {
+  width: 100%;
+  border-bottom: 2px solid #444;
+}
+
+.movie-info {
+  padding: 10px;
+  color: white;
+}
+
+.movie-info h5 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.movie-info p {
+  margin: 5px 0;
+}

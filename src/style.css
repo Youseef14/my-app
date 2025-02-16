@@ -1,0 +1,76 @@
+html, body, #root, .App {
+  background-color: #131722;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* لمنع أي شريط تمرير أفقي */
+}
+
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+body.dark {
+  background-color: #131722;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #09c;
+}
+
+.hover:hover {
+  color: #09c;
+  cursor: pointer;
+}
+
+.active-link {
+  color: #09c ;
+  font-weight: bold;
+}
+
+.social-icon {
+  margin-right: 10px;
+  transition: color 0.3s ease;
+  color: white;
+}
+
+.social-icon:hover {
+  color: #00acee;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 20px;
+}
+
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logout-btn {
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}

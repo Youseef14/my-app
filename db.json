@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "d18e",
+      "firstname": "ahmed",
+      "lastname": "khaled",
+      "age": "26",
+      "email": "ahmedkh@gmail.com",
+      "password": "ش123"
+    }
+  ]
+}

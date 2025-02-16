@@ -1,0 +1,83 @@
+/* 🔹 تنسيق الصفحة الرئيسية (Home.jsx) */
+.home-container {
+    background-color: #131722;
+    color: #fff;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .search-bar input {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .movie-card:hover .movie-info {
+    transform: translateY(0);
+  }
+  
+  /* 🔹 تنسيق صفحة تفاصيل الفيلم (MovieDetails.jsx) */
+  .movie-details {
+    background-color: #131722;
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .movie-banner img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+  }
+  

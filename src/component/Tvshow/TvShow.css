@@ -1,0 +1,31 @@
+.tvshow-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #131722;
+    color: white;
+  }
+  
+  .tvshow-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tvshow-card {
+    width: 200px;
+    background: #1e2633;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .tvshow-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .tvshow-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
